@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #f4efe6;
+  color: #2c2c2c;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.8;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.contador {
+  text-align: center;
+  margin: 80px 20px;
+}
+
+#tempo {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #1f4f5f;
+}
+
+.tear {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.tear-texto {
+  font-size: 1.4em;
+  color: #1f4f5f;
+  margin-bottom: 40px;
+}
+
+.tear-container {
+  position: relative;
+  height: 220px;
+  border-left: 2px solid rgba(0,0,0,0.2);
+  border-right: 2px solid rgba(0,0,0,0.2);
+  margin: 0 40px;
+}
+
+#fio {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 0;
+  background: linear-gradient(to top, #b48a3d, #e6c97a);
+  transform: translateX(-50%);
+  border-radius: 2px;
+  transition: height 1s ease;
+}
+
+#fio.desfazendo {
+  transition: height 3s ease-in-out;
+}
+
+.frase-recomeco {
+  font-size: 1.3em;
+  color: #1f4f5f;
+  margin-top: 25px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.frase-recomeco.mostrar {
+  opacity: 1;
+}
