@@ -9,7 +9,7 @@ const ALTURA_MAX = 200;
 const frases = [
   "Desfaço o que fiz hoje para poder esperar amanhã.",
   "Hoje desatei os fios. Amanhã, volto a tecer.",
-  "A espera não acabou. Ela apenas recomeça.",
+  "A espera não acaba. Ela apenas recomeça.",
   "Enquanto você navega, eu permaneço.",
   "O amor também sabe recomeçar."
 ];
