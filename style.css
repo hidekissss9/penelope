@@ -70,3 +70,10 @@ h1 {
 .frase-recomeco.mostrar {
   opacity: 1;
 }
+
+.eu-espero {
+  font-size: 1.8em;
+  margin: 10px 0 20px;
+  color: #1f4f5f;
+  font-weight: 600;
+}
